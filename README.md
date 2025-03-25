@@ -30,15 +30,18 @@ Meager Trade Bot is a live interactive BTC-USD trading bot that simulates tradin
 2.	Set Up a Virtual Environment (Recommended)
     Create and activate a virtual environment:
 	•	On macOS/Linux:
+        ```bash
         python3 -m venv venv
         source venv/bin/activate
 
 3.	Install Dependencies
 Install the required packages using the provided requirements.txt file:
+    ```bash
     pip install -r requirements.txt
 
 4.	Configure Environment Variables (Optional)
 If your application requires API keys or other sensitive settings, create a .env file in the root directory. For example:
+    ```bash
     COINMARKETCAP_API_KEY=your_api_key_here
     COINBASE_API_KEY=your_api_key_here
     COINBASE_API_SECRET=your_api_secret_here
@@ -48,4 +51,5 @@ If your application requires API keys or other sensitive settings, create a .env
 Usage
 
 To run the application locally:
+    ```bash
     streamlit run main.py
